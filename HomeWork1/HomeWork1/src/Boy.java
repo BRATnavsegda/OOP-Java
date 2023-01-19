@@ -1,6 +1,8 @@
-public class Boy extends Human{
+public class Boy extends Human {
 
-    {
-       Human.sex = 1;
+
+    public Boy(String name){
+        super(name);
+        sex = 1;
     }
 }
