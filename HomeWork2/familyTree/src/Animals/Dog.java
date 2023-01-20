@@ -7,7 +7,7 @@ public class Dog extends Animal{
     String dog;
     Random r;
 
-    Dog (String sex, String name, int age, String breed){
+    public Dog (String sex, String name, int age, String breed){
         SetSex(sex);
         SetName(name);
         SetAge(age);
@@ -22,8 +22,13 @@ public class Dog extends Animal{
 
     public void interaction() {
 
-        int i = r.nextInt(5);
-        System.out.println("Погладили собаку");
+        int i = r.nextInt(3);
+        switch (i){
+            case 0: System.out.println("Погладили собаку " + this.GetName());
+            case 1: System.out.println("Отогнали собаку " + this.GetName());
+            case 2: System.out.println("Покормили собаку " + this.GetName());
+        }
+
     }
 }
 

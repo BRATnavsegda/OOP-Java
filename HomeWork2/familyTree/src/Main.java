@@ -1,3 +1,5 @@
+import Animals.Cat;
+
 public class Main {
 
 //    К задачам из предыдущего дз добавить абстракции. т е на этом дз нужно
@@ -14,25 +16,28 @@ public class Main {
 //внедрению и инверсии зависимостей.
     public static void main(String[] args) {
 
-        Persona papa = new Persona("Ima", "F", 33, "lib1");
-        Persona son = new Persona("Sin", "F", 13, "lib2");
+//        Persona papa = new Persona("Ima", "F", 33, "lib1");
+//        Persona son = new Persona("Sin", "F", 13, "lib2");
+//
+//        papa.PersLibr.AddBook("Пушкин", "Собрание сочинений", "RU");
+//        papa.PersLibr.AddBook("Носов", "Незнайка на луне", "RU");
+//
+//        son.PersLibr.AddBook("Народное авторство", "Азбука", "RU");
+//        son.PersLibr.AddBook("", "Light blue", "RU");
+//        papa.AddName(son);
+//        view.treeView(papa, 0);
+//
+//        System.out.println("*".repeat(15));
+//        view.bookView(papa);
+//
+//        System.out.println("*".repeat(15));
+//        view.bookView(son);
+//        papa.Voice();
+//        father.AddName(son);
+//        father.AddName(sister);
+//        sister.AddName(grandSister);
 
-        papa.PersLibr.AddBook("Пушкин", "Собрание сочинений", "RU");
-        papa.PersLibr.AddBook("Носов", "Незнайка на луне", "RU");
-
-        son.PersLibr.AddBook("Народное авторство", "Азбука", "RU");
-        son.PersLibr.AddBook("", "Light blue", "RU");
-        papa.AddName(son);
-        view.treeView(papa, 0);
-
-        System.out.println("*".repeat(15));
-        view.bookView(papa);
-
-        System.out.println("*".repeat(15));
-        view.bookView(son);
-
-
-
+        Cat dusya = new Cat("ж", "Дуська", 4, "Уличная");
 
 
 
