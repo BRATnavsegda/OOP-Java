@@ -24,11 +24,16 @@ public class Dog extends Animal{
 
         int i = r.nextInt(3);
         switch (i){
-            case 0: System.out.println("Погладили собаку " + this.GetName());
-            case 1: System.out.println("Отогнали собаку " + this.GetName());
-            case 2: System.out.println("Покормили собаку " + this.GetName());
+            case 0: System.out.println("Погладили собаку " + this.GetName());break;
+            case 1: System.out.println("Отогнали собаку " + this.GetName());break;
+            case 2: System.out.println("Покормили собаку " + this.GetName());break;
         }
 
+    }
+    @Override
+    public String toString() {
+        return this.dog + " \nКличка: " + GetName() + " \nПол: " + GetSex() +
+                " \nВозраст: " + GetAge() + "\nПорода: " + GetBreed();
     }
 }
 

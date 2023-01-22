@@ -1,3 +1,5 @@
+import Animals.Animal;
+
 public class view {
     public static void treeView(Persona root, int num){
         String line = "_".repeat(num);
@@ -13,6 +15,11 @@ public class view {
             System.out.println(a.bAutor + " " + a.bName);
         }
     }
-}
 
-// https://t.me/VladVin2314
+    public static void animalsView(Persona root) {
+        System.out.println("Домашние животные принадлежащие " + root.GetName());
+        for (Animal a : root.animals) {
+            System.out.println(a + "\n_____________________________");
+        }
+    }
+    }

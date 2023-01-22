@@ -21,10 +21,16 @@ public class Cat extends Animal{
     public void interaction() {
         int i = r.nextInt(3);
         switch (i){
-            case 0: System.out.println("Погладили кошку " + this.GetName());
-            case 1: System.out.println("Легонько отпнули в сторону из-под ног кошку " + this.GetName());
-            case 2: System.out.println("Подозвали кошку " + this.GetName());
+            case 0: System.out.println("Погладили кошку " + this.GetName()); break;
+            case 1: System.out.println("Легонько отпнули в сторону из-под ног кошку " + this.GetName());break;
+            case 2: System.out.println("Подозвали кошку " + this.GetName());break;
         }
 
+    }
+
+    @Override
+    public String toString() {
+        return this.cat + " \nКличка: " + GetName() + " \nПол: " + GetSex() +
+        " \nВозраст: " + GetAge() + "\nПорода: " + GetBreed();
     }
 }

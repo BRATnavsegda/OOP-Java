@@ -1,4 +1,5 @@
 import Animals.Cat;
+import Animals.Cow;
 
 public class Main {
 
@@ -16,7 +17,7 @@ public class Main {
 //внедрению и инверсии зависимостей.
     public static void main(String[] args) {
 
-//        Persona papa = new Persona("Ima", "F", 33, "lib1");
+        Persona papa = new Persona("Boris", "мужской", 33, "lib1");
 //        Persona son = new Persona("Sin", "F", 13, "lib2");
 //
 //        papa.PersLibr.AddBook("Пушкин", "Собрание сочинений", "RU");
@@ -37,7 +38,14 @@ public class Main {
 //        father.AddName(sister);
 //        sister.AddName(grandSister);
 
-        Cat dusya = new Cat("ж", "Дуська", 4, "Уличная");
+
+        Cat dusya = new Cat("женский", "Дуська", 4, "Уличная");
+        Cow mashka = new Cow("женский", "Машка", 2, "Молочная-борзая");
+        dusya.interaction();
+        papa.AddAnimal(dusya);
+        papa.AddAnimal(mashka);
+        mashka.interaction();
+        view.animalsView(papa);
 
 
 

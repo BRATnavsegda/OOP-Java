@@ -21,10 +21,15 @@ public class Cow extends Animal{
     public void interaction() {
         int i = r.nextInt(3);
         switch (i){
-            case 0: System.out.println("Подоили корову " + this.GetName());
-            case 1: System.out.println("Покормили корову " + this.GetName());
-            case 2: System.out.println("Убрали навоз за коровой " + this.GetName());
+            case 0: System.out.println("Подоили корову " + this.GetName());break;
+            case 1: System.out.println("Покормили корову " + this.GetName());break;
+            case 2: System.out.println("Убрали навоз за коровой " + this.GetName());break;
         }
 
+    }
+    @Override
+    public String toString() {
+        return this.cow + " \nКличка: " + GetName() + " \nПол: " + GetSex() +
+                " \nВозраст: " + GetAge() + "\nПорода: " + GetBreed();
     }
 }
