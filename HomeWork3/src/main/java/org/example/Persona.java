@@ -32,5 +32,21 @@ public class Persona {
         return choice != 0;
     }
 
+    public void addPersonaToDepartment(Group groupIn, Group groupOut){
+        boolean check = this.checkAddGroup(groupIn);
+        if (check) {
+            groupIn.addPeople(this);
+            groupOut.delPeople(this);
+        } else {
+            System.out.println("Работник отказался!");
 
+        }
+        Viewer.viewGroupPersons(groupIn);
+        Viewer.viewGroupPersons(groupOut);
+    }
+
+    @Override
+    public String toString() {
+        return "ФИО: " + getpFIO() + "; Пол: " + getpSex() + "; Возраст: " + getpAge();
+    }
 }

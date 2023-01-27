@@ -1,21 +1,27 @@
 package org.example;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedHashSet;
-import java.util.Set;
 
 public class Department {
     String deptName;
-    String deptWorker;
+
 
     ArrayList<Persona> personaInDept = new ArrayList<>();
     // dep0, dep1, dep2
 
+    public String getDeptName() {
+        return deptName;
+    }
 
     public void setDeptName(String deptName) {
         this.deptName = deptName;
     }
 
+    public ArrayList<Persona> getPersonaInDept() {
+        return personaInDept;
+    }
 
+    public Persona getPersonaFromDepartment(int i) {
+       return getPersonaInDept().get(i);
+    }
 }
