@@ -1,17 +1,26 @@
 package org.phonebook;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.logging.*;
+
+
 
 public class Filemanager {
+
 
     String FILE_PATH = "./src/main/java/org/phonebook/";
     String FILE_NAME_EXPORT = "export.csv";
     String FILE_PATH_FULL = FILE_PATH+FILE_NAME_EXPORT;
+
+    public Filemanager() throws IOException {
+    }
+
     public void fileExport(ArrayList<Phonebook> pb){
+        MyLogger.logger.log(Level.INFO, "Запись данных в файл");
         try(FileWriter writer = new FileWriter(FILE_PATH + FILE_NAME_EXPORT, false))
         {
             // запись всей строки
-//            String text = "Hello Gold!";
+
             for(Phonebook i: pb){
                 String text = i.getName()+";"+i.getPhone()+";"+i.getCity();
                 writer.write(text);
@@ -28,6 +37,7 @@ public class Filemanager {
 
 
     public void fileImport(ArrayList<Phonebook> pb){
+        MyLogger.logger.log(Level.INFO, "Чтение данных из файла");
         try {
             File file = new File(FILE_PATH_FULL);
             //создаем объект FileReader для объекта File

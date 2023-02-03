@@ -1,5 +1,5 @@
 package org.phonebook;
-
+import java.util.logging.*;
 public class Phonebook {
     String Name;
     String Phone;
@@ -9,6 +9,8 @@ public class Phonebook {
         this.Name = name;
         this.Phone = phone;
         this.City = city;
+
+        MyLogger.logger.log(Level.INFO, "Создан новый контакт");
     }
 
     public String getName() {

@@ -1,9 +1,12 @@
 package org.phonebook;
 
+import java.io.IOException;
 import java.util.Scanner;
+import java.util.logging.Level;
 
 public class Menu {
-    public static void mainMenu(){
+    public static void mainMenu() throws IOException {
+        MyLogger.logger.log(Level.INFO, "Запуск меню");
         Scanner in = new Scanner(System.in);
         System.out.println("1 - Отобразить справочник");
         System.out.println("2 - Выгрузить данные");

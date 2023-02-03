@@ -1,16 +1,18 @@
 package org.phonebook;
 
-
-import java.io.IOException;
 import java.util.logging.*;
+import java.io.IOException;
+
 
 //Создать телефонный справочник с возможностью импорта и экспорта данных в нескольких форматах.
 //  под форматами понимаем структуру файлов, например:
 //  - в файле на одной строке хранится одна часть записи, пустая строка - разделитель
 public class Main {
 
-    public static final Logger logger = Logger.getLogger(Main.class.getName());
+
     public static void main(String[] args) throws IOException {
+
+        MyLogger.logger.log (Level.INFO, "Start program");
 
 //        Main run = new Main();
 //        run.ExportFile(ArrayList<Phonebook> pb);
@@ -23,12 +25,11 @@ public class Main {
 //        System.out.println("****************");
 //        phones.showAddressBook();
 
+
         Menu.mainMenu();
 
-        Handler fileHandler = new FileHandler("%h/myLogging.log");
-        logger.addHandler(fileHandler);
-        logger.log(Level.INFO, "info");
 
+        MyLogger.logger.log (Level.INFO, "Stop program");
 
 //        logger.log(Level.WARNING, "warning", new Throwable());
 
