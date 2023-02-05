@@ -1,0 +1,10 @@
+февр. 05, 2023 1:58:00 PM org.phonebook.Main main
+INFO: Start program
+февр. 05, 2023 1:58:00 PM org.phonebook.Menu mainMenu
+INFO: Запуск меню
+февр. 05, 2023 1:58:05 PM org.phonebook.Phonebook <init>
+INFO: Создан новый контакт
+февр. 05, 2023 1:58:05 PM org.phonebook.Phonebook <init>
+INFO: Создан новый контакт
+февр. 05, 2023 1:58:05 PM org.phonebook.Main main
+INFO: Stop program
