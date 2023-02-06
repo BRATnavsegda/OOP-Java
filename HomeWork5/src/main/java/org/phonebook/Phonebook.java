@@ -1,36 +1,18 @@
 package org.phonebook;
-import java.util.logging.*;
+
+import java.util.ArrayList;
+
 public class Phonebook {
-    String Name;
-    String Phone;
-    String City;
 
-    public Phonebook(String name, String phone, String city){
-        this.Name = name;
-        this.Phone = phone;
-        this.City = city;
-
-        MyLogger.logger.log(Level.INFO, "Создан новый контакт");
+    public ArrayList<Contact> pb = new ArrayList();
+    public void Addressbook(){
+        pb.add(new Contact("Иванов Иван Иванович", "1234567890", "Иваново"));
+        pb.add(new Contact("Сидоров Сидор Сидорович", "0987654321", "Сидорово"));
     }
 
-    public String getName() {
-        return Name;
+    public void showAddressBook(){
+        for(Contact i : pb){
+            System.out.println(i.getName() + " " + i.getPhone() + " " + i.getCity());
+        }
     }
-
-    public String getPhone() {
-        return Phone;
-    }
-    public String getCity() {
-        return City;
-    }
-    public void setName(String name) {
-        Name = name;
-    }
-    public void setPhone(String phone) {
-        Phone = phone;
-    }
-    public void setCity(String city) {
-        City = city;
-    }
-
 }
