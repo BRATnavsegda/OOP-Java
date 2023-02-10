@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58856718-dad1-4597-b195-261728f3243f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork7/.idea/HomeWork7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork7/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork7/FilesWork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HomeWork7/MyLogger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork1/src/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork1/src/Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork1/src/Boy.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork1/src/Boy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork1/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork1/src/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,8 @@
       <workItem from="1674109605841" duration="439000" />
       <workItem from="1674110066059" duration="255000" />
       <workItem from="1674110342881" duration="15000" />
+      <workItem from="1675929774624" duration="248000" />
+      <workItem from="1676009127934" duration="26000" />
     </task>
     <servers />
   </component>
