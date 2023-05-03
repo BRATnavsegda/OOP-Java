@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62cc2fcf-5e66-4d91-8894-30f14b0292e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GeneticTree/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticTree/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticTree/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticTree/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticTree/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticTree/GeneticTree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticTree/src/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticTree/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneticTree/src/TreeView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/GeneticTree" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,6 +49,9 @@
       <workItem from="1674053634565" duration="194000" />
       <workItem from="1674060640685" duration="3081000" />
       <workItem from="1674077390535" duration="19000" />
+      <workItem from="1681401555463" duration="314000" />
+      <workItem from="1681401969382" duration="389000" />
+      <workItem from="1681407396211" duration="85000" />
     </task>
     <servers />
   </component>
