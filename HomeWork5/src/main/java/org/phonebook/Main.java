@@ -14,28 +14,9 @@ public class Main {
 
         MyLogger.logger.log (Level.INFO, "Start program");
 
-//        Main run = new Main();
-//        run.ExportFile(ArrayList<Phonebook> pb);
-//        Filemanager run = new Filemanager();
-//        Addressbook phones = new Addressbook();
-//        phones.Addressbook();
-////        run.ExportFile(phones.pb);
-////        System.out.println(phones.pb);
-//        run.ImportFile(phones.pb);
-//        System.out.println("****************");
-//        phones.showAddressBook();
-
-
         Menu.mainMenu();
-
 
         MyLogger.logger.log (Level.INFO, "Stop program");
 
-//        logger.log(Level.WARNING, "warning", new Throwable());
-
-//        Handler consoleHandler = new ConsoleHandler();
-
     }
-
-
 }

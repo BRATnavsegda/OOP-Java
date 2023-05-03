@@ -15,8 +15,8 @@ public class Menu {
         System.out.print("Выберите действие: ");
         int input = in.nextInt();
 
-        Filemanager run = new Filemanager();
-        Addressbook phones = new Addressbook();
+        FilesWork run = new FilesWork();
+        Phonebook phones = new Phonebook();
         phones.Addressbook();
 
         switch (input) {
@@ -26,12 +26,12 @@ public class Menu {
                 break;
             case 2:
                 phones.Addressbook();
-                run.fileExport(phones.pb);
+                run.save(phones.pb);
                 System.out.println("Export finish");
                 break;
             case 3:
                 phones.Addressbook();
-                run.fileImport(phones.pb);
+                run.load(phones.pb);
                 phones.showAddressBook();
                 break;
         }
